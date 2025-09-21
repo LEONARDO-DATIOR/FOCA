@@ -1,0 +1,13 @@
+.section-cronometro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-cronometro h1 {
+    position: absolute;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 64px;
+    color: var(--cor-branca);
+}

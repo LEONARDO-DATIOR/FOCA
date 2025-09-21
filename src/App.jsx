@@ -1,10 +1,15 @@
 import './App.css'
+import Cronometro from './componentes/cronometro/cronometro.jsx';
+import Logo from './componentes/logo/logo';
 
 function App() {
 
   return (
     <>
-      <h1>teste</h1>
+      <main className='corpo'>
+        <Logo></Logo>
+        <Cronometro></Cronometro>
+      </main>
     </>
   )
 }
